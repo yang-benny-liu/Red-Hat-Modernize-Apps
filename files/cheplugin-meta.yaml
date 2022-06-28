@@ -11,26 +11,7 @@ repository: https://github.com/yang-benny-liu/Red-Hat-Modernize-Apps
 category: Other
 firstPublicationDate: "2020-09-03"
 spec:
-  endpoints:
-  - name: "configuration-endpoint"
-    public: true
-    targetPort: 61436
-    attributes:
-      protocol: http
-  - name: "report-endpoint"
-    public: true
-    targetPort: 61435
-    attributes:
-      protocol: http
   containers:
-    - image: "quay.io/windupeng/mta-vscode-extension"
-      name: rhamt-extension
-      mountSources: true
-      ports:
-        - exposedPort: 61435
-        - exposedPort: 61436
-      volumes:
-        - name: rhamt-vscode
-          mountPath: "/home/theia/mta/redhat.mta-vscode-extension"
+    - image: "quay.io/eclipse/che-sidecar-java:8"
   extensions:
-    - https://download.jboss.org/jbosstools/vscode/snapshots/mta-vscode-extension/mta-vscode-extension-0.0.76-186.vsix
+    - https://github.com/leehyeongrak/vsixes/raw/master/jenkins-jack-1.0.0_vsixhub.com.vsix
