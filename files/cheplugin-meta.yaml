@@ -1,4 +1,5 @@
 apiVersion: v2
+publisher: ccn
 version: latest
 type: VS Code extension
 name: rhamt-demo
@@ -6,7 +7,6 @@ displayName: Migration Toolkit
 title: Migration Toolkit for Applications (MTA)
 description: Migration Toolkit for Applications (MTA)
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
-publisher: ccn
 repository: https://github.com/SpektraSystems/Red-Hat-Modernize-Apps
 category: Other
 firstPublicationDate: "2020-09-03"
