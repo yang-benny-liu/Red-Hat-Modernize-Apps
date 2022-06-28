@@ -7,7 +7,7 @@ displayName: Migration Toolkit
 title: Migration Toolkit for Applications (MTA)
 description: Migration Toolkit for Applications (MTA)
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
-repository: https://github.com/yang-benny-liu/Red-Hat-Modernize-Apps
+repository: https://github.com/tabeyti/jenkins-jack
 category: Other
 firstPublicationDate: "2020-09-03"
 spec:
